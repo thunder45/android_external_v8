@@ -120,6 +120,7 @@ ifeq ($(TARGET_ARCH),arm)
 		src/arm/macro-assembler-arm.cc \
 		src/arm/regexp-macro-assembler-arm.cc \
 		src/arm/stub-cache-arm.cc
+LOCAL_ARM_MODE := arm
 endif
 
 ifeq ($(TARGET_ARCH),mips)

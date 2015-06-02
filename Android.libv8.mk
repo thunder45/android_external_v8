@@ -91,6 +91,7 @@ LOCAL_CFLAGS += \
 
 ifeq ($(TARGET_ARCH),arm)
 	LOCAL_CFLAGS += -DARM -DV8_TARGET_ARCH_ARM
+	LOCAL_ARM_MODE := arm
 endif
 
 ifeq ($(TARGET_ARCH),mips)
